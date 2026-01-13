@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <title>Sifariş – KH UC SHOP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadOrder()">
+
+<header>
+  <h1>KH UC SHOP</h1>
+  <a class="btn" href="index.html">GERİ</a>
+</header>
+
+<div class="container">
+  <form onsubmit="sendWhatsApp(); return false;">
+    <h2>Sifariş Formu</h2>
+    <input id="pkg" readonly>
+    <input id="price" readonly>
+    <input id="pubgId" placeholder="PUBG ID" required>
+    <select id="server">
+      <option>Global</option>
+      <option>Europe</option>
+      <option>Asia</option>
+    </select>
+    <select id="payment">
+      <option>Kart</option>
+      
+    </select>
+    <br>
+        <h4>4127-2093-0150-4392</h4>
+        <h5>Nəcəfli Murad Ramil oğlu</h5>
+        <h5>ABB Bank</h5>
+
+
+    <input type="file" accept="image/*">
+    <input class="submit" type="submit" value="SİFARİŞİ TƏSDİQLƏ">
+  </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
